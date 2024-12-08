@@ -11,6 +11,6 @@
     "react-icons": "^5.4.0"
   },
   "engines": {
-    "node": "16.x"
+    "node": "22.x"
   }
 }
