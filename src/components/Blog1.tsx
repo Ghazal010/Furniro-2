@@ -2,11 +2,11 @@ import React from "react";
 import { FaUser, FaCalendar, FaTag } from "react-icons/fa";
 
 export default function BlogPage() {
-  // Blog posts data
+  
   const blogPosts = [
     {
       id: 1,
-      image: "/blog1.png", // Replace with your image path
+      image: "/blog1.png", 
       title: "Going all-in with millennial design",
       author: "Admin",
       date: "14 Oct 2022",
@@ -16,7 +16,7 @@ export default function BlogPage() {
     },
     {
       id: 2,
-      image: "/blog2.png", // Replace with your image path
+      image: "/blog2.png", 
       title: "Exploring new ways of decorating",
       author: "Admin",
       date: "10 Oct 2022",
@@ -26,7 +26,7 @@ export default function BlogPage() {
     },
     {
       id: 3,
-      image: "/blog3.png", // Replace with your image path
+      image: "/blog3.png", 
       title: "Handmade pieces for your home",
       author: "Admin",
       date: "08 Oct 2022",
@@ -39,7 +39,7 @@ export default function BlogPage() {
   return (
     <div className="bg-gray-100 min-h-screen p-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Main Content */}
+        
         <div className="lg:col-span-2">
           {blogPosts.map((post) => (
             <div
@@ -78,9 +78,9 @@ export default function BlogPage() {
           ))}
         </div>
 
-        {/* Sidebar */}
+       
         <div>
-          {/* Search Box */}
+         
           <div className="mb-8">
             <input
               type="text"
@@ -89,7 +89,7 @@ export default function BlogPage() {
             />
           </div>
 
-          {/* Categories */}
+          
           <div className="bg-white shadow-md rounded-lg p-6 mb-8">
             <h3 className="text-lg font-bold mb-4">Categories</h3>
             <ul className="space-y-2">
@@ -111,7 +111,7 @@ export default function BlogPage() {
             </ul>
           </div>
 
-          {/* Recent Posts */}
+          
           <div className="bg-white shadow-md rounded-lg p-6">
             <h3 className="text-lg font-bold mb-4">Recent Posts</h3>
             <ul className="space-y-4">
